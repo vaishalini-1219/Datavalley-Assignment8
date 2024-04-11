@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGN UP FORM</title>
+</head>
+<h1> Sign up </h1>
+<body>
+<form>
+Name:<br>
+<input list="fullname" type="text" placeholder="Fullname" required>
+<datalist id="fullname">
+    <option>Fullname</option>
+    <option>Harshini</option>
+    <option>Devi</option>
+</datalist>
+<br><br>
+email:<br>
+   <input type="email" id="email" name="email" placeholder="gmail id">
+<br><br>
+Password:<br>
+   <input type="password" placeholder="8 characters">
+<br><br>
+Confirm Password:<br>
+    <input type="password"  placeholder="8 characters" required>
+<br><br>
+Date Of Birth:<br>
+    <input type="date">
+<br><br>
+Gender:<br>
+<input type="radio" name="Male" value="Male">Male
+<input type="radio" name="Female" value="Female">Female
+<input type="radio" name="other" value="other">Other
+
+<br><br>
+Insert your photo:<br>
+   <input type="file" id="photo" name="photo" accept="image/*" placeholder="No file chosen">
+<br><br>
+Insert your resume:<br>
+   <input type="file"  name="document" accept=".doc, .docx, .pdf" placeholder="No file chosen">
+<br><br>
+<label for="sec_que">Security Question:</label><br>
+   <select id="sec_que" name="sec_que">
+     <option >What is your favorite book?</option>
+    <option >What is the name of your first pet?</option>
+   </select>
+   <br>
+<textarea  rows= "6" cols="28"  required></textarea>
+  <br><br>
+<input type="checkbox">
+<label>I agree terms and conditions</lable><br><br>
+<button type="submit">Register</button>
+</form>
+</body>
+</html>
